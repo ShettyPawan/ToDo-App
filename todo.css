@@ -1,0 +1,53 @@
+body {
+  font-family: Georgia ;
+}
+
+
+.container{
+  border: dashed 2px maroon;
+  justify-content: center;
+  border-bottom: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+} 
+
+#inputField{
+  border:  solid 1px;
+  margin: 5px;
+  width: 350px;
+  height: 30px;
+}
+
+.button{
+  border: 2px solid ;
+  border-radius: 5px;
+  align-items: right;
+  margin-left: 20px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor:pointer;
+
+}
+
+.contTask{
+  border: dashed 2px maroon;
+  width: 600px;
+  display: grid;
+  grid-template-columns: 400px 100px 100px;
+  row-gap:  7px;
+  
+  align-items: center;
+
+}
+
+#deleteButton{
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 3px 3px;
+  cursor: pointer;
+}
